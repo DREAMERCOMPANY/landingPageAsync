@@ -35,7 +35,7 @@ async function fetchData(urlApi) {
                             </h3>
                         </div>
                     </div>
-                `).slice(0, 3).join('')}
+                `).slice(3, 6).join('')}
             `;
             content.innerHTML = view;
         } else {
